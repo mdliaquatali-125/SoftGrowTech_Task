@@ -1,21 +1,21 @@
-# 🔐 Password Generator
+# 🔐 Password Generator – SoftGrowTech Task
+
 ## 📌 Project Overview
 
-This is a simple and responsive **Password Generator** built using HTML, CSS, and JavaScript.
+This project is developed as part of the SoftGrowTech Task.
+It is a simple and responsive **Password Generator** designed to create strong and secure passwords instantly.
 
-The app allows users to generate strong and secure passwords with customizable options like numbers, symbols, and uppercase letters.
+The application provides a clean user interface and allows users to customize passwords by selecting options like numbers, symbols, and uppercase letters.
 
 ---
 
 ## 🚀 Features
 
-* Generate random passwords instantly
-* Option to include:
-
-  * 🔢 Numbers
-  * 🔣 Symbols
-  * 🔠 Uppercase letters
-* Clean and user-friendly interface
+* Generate random passwords
+* Include Numbers option
+* Include Symbols option
+* Include Uppercase letters
+* Simple and clean UI
 * Responsive design
 * One-click password generation
 
@@ -29,20 +29,19 @@ The app allows users to generate strong and secure passwords with customizable o
 
 ---
 
-## 📂 Project Structure
+## 📁 Folder Structure
 
-```
-Task 02 (Password Generator)
+SoftGrowTech_Task/
 │
-├── index.html
-├── css/
-│   ├── style.css
-│   └── skin.css
-├── js/
-│   └── Script.js
-├── image/
-│   └── bg.jpg
-```
+├── Task 02 (Password Generator)/
+│   ├── index.html
+│   ├── css/
+│   │   ├── style.css
+│   │   └── skin.css
+│   ├── js/
+│   │   └── Script.js
+│   ├── image/
+│   │   └── bg.jpg
 
 ---
 
@@ -50,30 +49,33 @@ Task 02 (Password Generator)
 
 1. Download or clone the repository
 2. Open the project folder
-3. Run `index.html` in your browser
+3. Open **index.html** in any browser
 
 ---
 
-## 📸 Screenshot
+## 🌐 Repository Link
 
-(Add screenshot here if needed)
+https://github.com/mdliaquatali-125/SoftGrowTech_Task
 
 ---
 
-## 🎯 Purpose
+## 📌 Functionality
 
-This project is created as part of the **SoftGrowTech Internship Task 02** to practice JavaScript logic and UI design.
+* Select options (Numbers, Symbols, Uppercase)
+* Click on **Generate Password** button
+* Password will be displayed instantly
 
 ---
 
 ## 👨‍💻 Author
 
-**Muhammad Liaquat Ali**
+Muhammad Liaquat Ali
+Karachi, Pakistan
 
 ---
 
 ## ⭐ Note
 
-Make sure at least one option (Numbers, Symbols, Uppercase) is selected before generating a password for best results.
+This project is submitted as part of the SoftGrowTech Task 02 with proper folder structure, clean code, and JavaScript functionality.
 
 ---
