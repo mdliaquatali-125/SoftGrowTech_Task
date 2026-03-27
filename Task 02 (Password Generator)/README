@@ -1,8 +1,7 @@
-# 🔐 Password Generator Web App
-
+# 🔐 Password Generator
 ## 📌 Project Overview
 
-This is a simple and responsive **Password Generator Web Application** built using HTML, CSS, and JavaScript.
+This is a simple and responsive **Password Generator** built using HTML, CSS, and JavaScript.
 
 The app allows users to generate strong and secure passwords with customizable options like numbers, symbols, and uppercase letters.
 
