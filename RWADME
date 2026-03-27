@@ -1,0 +1,80 @@
+# 🔐 Password Generator 
+
+## 📌 Project Overview
+
+This is a simple and responsive **Password Generator** built using HTML, CSS, and JavaScript.
+
+The app allows users to generate strong and secure passwords with customizable options like numbers, symbols, and uppercase letters.
+
+---
+
+## 🚀 Features
+
+* Generate random passwords instantly
+* Option to include:
+
+  * 🔢 Numbers
+  * 🔣 Symbols
+  * 🔠 Uppercase letters
+* Clean and user-friendly interface
+* Responsive design
+* One-click password generation
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## 📂 Project Structure
+
+```
+Task 02 (Password Generator)
+│
+├── index.html
+├── css/
+│   ├── style.css
+│   └── skin.css
+├── js/
+│   └── Script.js
+├── image/
+│   └── bg.jpg
+```
+
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository
+2. Open the project folder
+3. Run `index.html` in your browser
+
+---
+
+## 📸 Screenshot
+
+(Add screenshot here if needed)
+
+---
+
+## 🎯 Purpose
+
+This project is created as part of the **SoftGrowTech Internship Task 02** to practice JavaScript logic and UI design.
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Liaquat Ali**
+
+---
+
+## ⭐ Note
+
+Make sure at least one option (Numbers, Symbols, Uppercase) is selected before generating a password for best results.
+
+---
