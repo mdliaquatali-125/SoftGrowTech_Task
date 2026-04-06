@@ -1,0 +1,86 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Task Management System</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/images/favicon.png">
+    <link href="~/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+    <!-- Datatable -->
+    <link href="~/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/assets/vendor/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/skin.css">
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Image move ke time bahir na jaye */
+        }
+
+        /* ✨ Wander → Center Animation */
+        @@keyframes wanderToCenter {
+            0% {
+                opacity: 0;
+                transform: translate(-300px, -300px) scale(0.8);
+            }
+
+            20% {
+                opacity: 1;
+                transform: translate(300px, -200px) scale(1);
+            }
+
+            40% {
+                transform: translate(-200px, 220px) scale(1);
+            }
+
+            60% {
+                transform: translate(250px, 250px) scale(1.05);
+            }
+
+            80% {
+                transform: translate(-150px, -120px) scale(1);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translate(0, 0) scale(1); /* center */
+            }
+        }
+
+        .error-page {
+            text-align: center;
+            max-width: 400px;
+        }
+
+            .error-page img {
+                max-width: 100%;
+                margin-bottom: 20px;
+                animation: wanderToCenter 4s ease-in-out forwards; /* slow smooth */
+            }
+    </style>
+</head>
+
+<body>
+    <div class="error-page">
+        <img src="~/assets/images/400 Error Bad Request.png" alt="Error Image" />
+        <a class="btn btn-primary ml-3 px-4" href="/LogIn/index">
+            <i class="la la-arrow-left"></i>
+            Back to Dashboard
+        </a>
+    </div>
+</body>
+</html>
